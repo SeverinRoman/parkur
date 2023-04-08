@@ -1,0 +1,44 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.1.2",
+	"FriendlyName": "VaultIt!",
+	"Description": "Multiplayer ready GAS-based vaulting with motion warping & full-body IK & net prediction of the highest caliber",
+	"Category": "Gameplay",
+	"CreatedBy": "Drowning Dragons",
+	"CreatedByURL": "",
+	"DocsURL": "https://github.com/DrowningDragons/VaultIt-Wiki/wiki",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/7d19b5622d6846edb9881e6c89bce05e",
+	"SupportURL": "https://discord.gg/rk3VRYv",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "VaultIt",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "VIMotionWarping",
+			"Type": "Runtime",
+			"LoadingPhase": "PostConfigInit",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		}
+	]
+}
